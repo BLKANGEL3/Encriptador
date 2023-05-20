@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <title>Encriptador</title>
@@ -16,6 +16,7 @@
             <section>
                 <textarea class="texto-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
                 <div>
+                    <p id="texto"><img class="alert-icon" src="imagenes/vector.svg" alt="icono de alerta"></p>
                     <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
                 </div>
                 <div class="botones">
@@ -26,10 +27,29 @@
             </section>
                 <textarea class="mensaje" cols="20" rows="15" placeholder="Ningún mensaje fue encontrado"></textarea>
 
-                <div>
-                    <button class="btn-copiar" onclick="copiar()">Copiar</button>
+                <div class="copiarboton">
+                    <button class="btn-copiar" onclick="copiar();" >Copiar</button>
                 </div>
         </main>
         <script src="script.js"></script>
     </body>
+    <footer>
+        <div class="footer-container">
+            <ul class="footer-list">
+                <li>
+                    <a href="https://github.com/BLKANGEL3" target="_blank">
+                        <img src="imagenes/GitHub.png" alt="Github">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/angel-rangel-27724025b/" target="_blank">
+                        <img src="imagenes/Linkedin.png" alt="Linkedin">
+                    </a>
+                </li>
+            </ul>
+            <div class="footer-image">
+                <img src="imagenes/Imagenpersonal.jpg" alt="Imagen del autor del encriptador">
+            </div>
+        </div>
+    </footer>      
 </html>

@@ -44,10 +44,30 @@ function desencriptar(stringDesencriptado){
     return stringDesencriptado;
 }
 
+//function llamarfunciones(){  intento de hacer aparecer y desaparecer el boton copiar
+ //   copiar();
+ //   mostrar();
+//}
+
 function copiar(){
     const btnCopiar = document.querySelector('.btn-copiar');
     const textoCopiado = document.querySelector('.mensaje');
     textoCopiado.select();
     document.execCommand('copy');
 }
+
+
+//function mostrar(){          intento de hacer aparecer y desaparecer el boton copiar
+ //   const texto = document.querySelector(".mensaje");
+  //  const Copiar = document.querySelector(".copiarboton");
+
+  //  if (texto.value !== "") {
+  //      Copiar.style.display = "block";
+   // } else {
+   //    Copiar.style.display = "none";
+   // }
+//}
+
+
+
 
