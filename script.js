@@ -68,6 +68,11 @@ function copiar(){
    // }
 //}
 
+function autoResize() {
+    const mensaje = document.querySelectorByClass(".mensaje");
+    mensaje.style.height = "auto";
+    mensaje.style.heigh = mensaje.scrollHeight + "px";
+}
 
 
 
